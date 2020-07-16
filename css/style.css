@@ -1,0 +1,66 @@
+.navbar .navbar-nav .nav-item .nav-link{
+    color: black;
+    font-weight: 600;
+s}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+    margin-top: 1px;
+    color: brown ;
+    text-decoration: underline;
+}
+
+.navbar .container .navbar-toggler  {
+    background-color: rgb(62, 214, 214);
+    color: black;
+}
+
+.card-deck {
+    margin-top: 50px;
+}
+
+.btn-link {
+    color: brown;
+    border-color: rgb(62, 214, 214);
+    margin-top: 5;
+}
+.btn-link:hover {
+    color: black;
+    border-color: rgb(255, 136, 0);
+    background-color: rgb(255, 136, 0);
+    text-decoration: none;
+}
+.btn-transparrent {
+    color: white;
+    background-color: rgb(62, 214, 214) ;
+    border-color: rgb(62, 214, 214);
+}
+.btn-transparrent:hover {
+    color: white;
+    border-color: rgb(255, 136, 0);
+    background-color: rgb(255, 136, 0);
+    text-decoration: none;
+}
+
+.navbar .navbar-nav .nav-item .dropdown-menu {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item {
+    color: black;
+    font-weight: 600;
+}
+.navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+.jumbotron {
+    background-image: url(../assets/wallpaper.jpg);
+    background-size: cover;
+    text-align: center;
+    height: 700px;
+    margin-bottom: -5px;
+}
+
+.jumbotron .display-4 {
+    margin-top: 160px;
+    font-weight: bold;
+}
